@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Project Quiz</string>
+    <string name="quiz_time">Quiz Time:</string>
+    <string name="type_your_answer_here">Type Your Answer here</string>
+    <string name="submit">Submit</string>
+    <string name="quiz_time_heading">Quiz Time</string>
+    <string name="india_s_largest_city_by_population">Q1) India\'s largest city by population?</string>
+    <string name="national_animal_of_india">Q2) National Animal of India</string>
+    <string name="national_bird_of_india">Q3) National Bird of India?</string>
+    <string name="national_flower_of_india">Q4) National Flower of India?</string>
+    <string name="name_of_my_name">-> Name of My Name?</string>
+    <string name="name_of_developer_who_made_this_awesome_app">Q5) Name of Developer who made this awesome app?</string>
+    <string name="number_of_state_and_union_territories_in_india">Q6) Number of State and Union Territories in India?</string>
+    <string name="_27_states_and_8_union_territories">27 States and 8 Union Territories</string>
+    <string name="_29_states_and_7_union_territories">29 States and 7 Union Territories</string>
+    <string name="_27_states_and_6_union_territories">27 States and 6 Union Territories</string>
+    <string name="_23_states_and_10_union_territories">23 States and 10 Union Territories</string>
+    <string name="tick_the_correct_three_services_of_indian_armed_forces">Q7) Tick the correct three services of Indian Armed forces?</string>
+    <string name="indian_army">Indian Army</string>
+    <string name="indian_navy">Indian Navy</string>
+    <string name="indian_air_force">Indian Air Force</string>
+    <string name="hanuman_force">Vanar Sena</string>
+    <string name="ans">Answer last Question</string>
+</resources>

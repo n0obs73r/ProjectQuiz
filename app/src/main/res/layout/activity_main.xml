@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:layout_margin="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/quiz_time_heading"
+        android:textColor="#4527A0"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed-medium"
+        />
+    <View
+        android:layout_width="200dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/black"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            style="@style/Questions"
+            android:id="@+id/q1"
+            android:text="@string/india_s_largest_city_by_population" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="17sp"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:importantForAutofill="no"
+            android:id="@+id/a1"
+            android:hint="@string/type_your_answer_here" />
+            <TextView
+                style="@style/Questions"
+                android:id="@+id/q2"
+                android:text="@string/national_animal_of_india" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textColor="@color/black"
+                android:inputType="text"
+                android:textSize="17sp"
+                android:id="@+id/a2"
+                android:importantForAutofill="no"
+                android:hint="@string/type_your_answer_here" />
+            <TextView
+                style="@style/Questions"
+                android:id="@+id/q3"
+                android:text="@string/national_bird_of_india" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:id="@+id/a3"
+                android:textSize="17sp"
+                android:hint="@string/type_your_answer_here"
+                android:importantForAutofill="no" />
+            <TextView
+                style="@style/Questions"
+                android:id="@+id/q4"
+                android:text="@string/national_flower_of_india" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:id="@+id/a4"
+                android:importantForAutofill="no"
+                android:hint="@string/type_your_answer_here" />
+            <TextView
+                style="@style/Questions"
+                android:id="@+id/q5"
+                android:text="@string/name_of_developer_who_made_this_awesome_app" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:inputType="text"
+                android:id="@+id/a5"
+                android:importantForAutofill="no"
+                android:hint="@string/type_your_answer_here" />
+            <TextView
+                style="@style/Questions"
+                android:id="@+id/q6"
+                android:text="@string/tick_the_correct_three_services_of_indian_armed_forces" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    style="@style/CheckBox"
+                    android:text="@string/indian_army"
+                    android:id="@+id/a6_1" />
+                <CheckBox
+                    style="@style/CheckBox"
+                    android:text="@string/indian_navy"
+                    android:id="@+id/a6_2"/>
+            </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        style="@style/CheckBox"
+                        android:text="@string/indian_air_force"
+                        android:id="@+id/a6_3" />
+                    <CheckBox
+                        style="@style/CheckBox"
+                        android:text="@string/hanuman_force"
+                        android:id="@+id/a6_4"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <TextView
+                style="@style/Questions"
+                android:id="@+id/q7"
+                android:text="@string/number_of_state_and_union_territories_in_india" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/radiogroup">
+            <RadioButton
+                style="@style/RadioBox"
+                android:text="@string/_27_states_and_8_union_territories"
+                android:id="@+id/a7_1" />
+            <RadioButton
+                style="@style/RadioBox"
+                android:text="@string/_29_states_and_7_union_territories"
+                android:id="@+id/a7_2"/>
+            <RadioButton
+                style="@style/RadioBox"
+                android:text="@string/_27_states_and_6_union_territories"
+                android:id="@+id/a7_3" />
+            <RadioButton
+                style="@style/RadioBox"
+                android:text="@string/_23_states_and_10_union_territories"
+                android:id="@+id/a7_4"/>
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/submit"
+                android:layout_gravity="right"
+                android:onClick="Submit"
+                tools:ignore="RtlHardcoded" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
